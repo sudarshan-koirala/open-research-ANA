@@ -19,7 +19,6 @@ This projects uses the following tools:
 
 - [pnpm](https://pnpm.io/installation)
 - [Docker](https://docs.docker.com/get-docker/)
-- [Langgraph CLI](https://langchain-ai.github.io/langgraph/cloud/reference/cli/)
 - [LangGrpah Studio](https://langchain-ai.github.io/langgraph/concepts/langgraph_studio/#configuration-or-environment-issues)
 
 ### 2. API Keys Needed
