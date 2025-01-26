@@ -57,7 +57,7 @@ pnpm install
 
 # Create and populate .env
 cat << EOF > .env
-LOCAL_DEPLOYMENT_URL=http://localhost:8000  # URL from langgraph up
+LOCAL_DEPLOYMENT_URL=http://localhost:62216  # URL from LangGraph Studio
 OPENAI_API_KEY=your_key
 LANGSMITH_API_KEY=your_key
 EOF
