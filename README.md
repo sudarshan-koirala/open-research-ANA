@@ -30,8 +30,7 @@ Running locally, you'll need the following API keys:
 - [LangSmith](https://docs.smith.langchain.com/administration/how_to_guides/organization_management/create_account_api_key)
 
 ### 3. Start the Agent
-There are two main components to this project: the agent and the frontend. First, we'll start the agent. If you are
-using Copilot Cloud and LangGraph Platform, you can skip this step.
+There are two main components to this project: the agent and the frontend. First, we'll start the agent.
 
 ```bash
 cd agent
