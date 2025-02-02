@@ -19,6 +19,7 @@ This projects uses the following tools:
 
 - [pnpm](https://pnpm.io/installation)
 - [Docker](https://docs.docker.com/get-docker/)
+- [Langgraph CLI](https://langchain-ai.github.io/langgraph/cloud/reference/cli/) OR   
 - [LangGrpah Studio](https://langchain-ai.github.io/langgraph/concepts/langgraph_studio/#configuration-or-environment-issues)
 
 ### 2. API Keys Needed
@@ -41,9 +42,9 @@ TAVILY_API_KEY=your_key
 LANGSMITH_API_KEY=your_key
 EOF
 
-# Start the agent using LangGraph Studio
+# Start the agent using LangGraph Studio or langgraphcli
 
-# Note the API URL from the LangGraph Studio (e.g., http://localhost:62216)
+# Note the API URL from the LangGraph Studio or CLI (e.g., http://localhost:62216 or http://localhost:8123)
 ```
 
 ### 4. Start the Frontend
@@ -55,7 +56,7 @@ pnpm install
 
 # Create and populate .env
 cat << EOF > .env
-LOCAL_DEPLOYMENT_URL=http://localhost:62216  # URL from LangGraph Studio
+LOCAL_DEPLOYMENT_URL=http://localhost:62216  # URL from LangGraph Studio or CLI
 OPENAI_API_KEY=your_key
 LANGSMITH_API_KEY=your_key
 EOF
